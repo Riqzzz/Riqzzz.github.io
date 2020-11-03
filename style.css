@@ -1,0 +1,339 @@
+/* NavBar and Brand */
+.navbar{
+  position: relative;
+  z-index: 1;
+}
+.navbar-brand{
+  font-size: 32px;
+}
+.nav-link, .navbar-brand{
+  color: #00aed0 !important;
+  font-family: Viga;
+}
+  
+.nav-link:hover{
+  color: #e673b0 !important;
+}
+
+/* Jumbotron */
+.jumbotron {
+  background-image: url(./jumbobg.jpg);
+  background-size: cover;
+  height: 520px; 
+  font-family: Viga; 
+  text-align: center;
+  position: relative ;
+}
+.jumbotron .container{
+  position: relative;
+  z-index: 1;
+}
+.jumbotron::after{
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to top, rgba(230, 115, 176,0.3), rgba(230, 115, 176,0));
+  position: absolute;
+  bottom: 0;
+}
+.jumbotron h1{
+  text-transform: uppercase;
+  color: #e93595;
+  margin-top: 20px;
+  font-size: 50px;
+}
+.jumbotron h2{
+  font-size: 20px;
+  margin-top: 70px;  
+  
+}
+.jumbotron h3{
+  text-transform: uppercase;
+  font-size: 18px;
+  margin-top: 30px;
+}
+.regist{
+  color: #f14666;
+  border-radius: 20px;
+  width: 150px ;
+  font-weight: 700;
+  /* text-transform: uppercase; */
+  margin-top: 10px;
+  background-color: transparent; 
+  padding: 0;
+}
+.regist:hover{
+  background-image: linear-gradient(to bottom, rgba(230, 115, 176,0.5), rgba(230, 115, 176,0));
+  color: #e673b0 !important;
+}
+/* Akhir Jumbotron */
+
+/* Awal Profile */
+#profile{
+  color: white;
+  font-family: Viga;
+  margin-top: -35px;
+  background-color: #355c7d;
+  height: 680px;
+  background-size: cover;
+}
+#profile .col{
+  margin-top: 60px;
+}
+#profile .col h2{
+  font-weight: 200;
+  text-transform: uppercase;
+  font-size: 24px;
+}
+#profile .col p{
+  font-weight: 200;
+  font-size: 11px;
+}
+
+.img-fluid{
+  border-radius: 20px;
+  height: 300px;
+}
+ /* Akhir Profile  */
+
+ /* Awal Keynote Speaker  */
+#speaker{
+  font-family: Viga;
+  height: auto;
+  background-size: cover;
+  background-color: #bac1ca;
+}
+.teks{
+  text-transform: uppercase;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  text-align: center;
+  font-size: 50px;
+}
+.btn{
+  margin-top: -10px;
+  margin-bottom: 70px;
+}
+#d3, #d2, #d1 p{
+  margin-top: -70px;
+}
+/* Akhir Keynote Speaker */
+
+/* Pendaftaran */
+#regist {
+  font-family: Viga;
+  text-align: center;
+  background: teal;
+  background-size: cover;
+  padding: 80px 0 60px 0;
+}
+.teks1{
+  text-transform: uppercase;
+  color: white;
+  font-size: 40px;
+  font-weight: 200;
+  margin-top: -30px;
+  margin-bottom: 70px;
+}
+#regist .box {
+  padding: 50px 20px;
+  margin-bottom: 50px;
+  text-align: center;
+  border: 1px solid #e6e6e6;
+  border-radius: 20px;
+  height: 200px;
+  position: relative;
+  background: #fafafa;
+}
+#regist .icon {
+  position: absolute;
+  top: -36px;
+  left: calc(50% - 36px);
+  transition: 0.2s;
+  border-radius: 50%;
+  border: 6px solid #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  width: 72px;
+  height: 72px;
+  background: #2dc997;
+}
+#regist .icon i {
+  color: #fff;
+  font-size: 24px;
+}
+#regist .title {
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+#regist .description {
+  font-size: 14px;
+  line-height: 24px;
+}
+/* Akhir Pendaftaran */
+
+/* Team */
+
+#tim {
+  height: 720px;
+  background-size: cover;
+  background-color: #bac1ca;
+  margin-top: -20px;
+  text-align: center;
+  font-family: Viga;
+}
+#tim h2{
+  text-transform: uppercase;
+  font-size: 50px;
+  margin-top: 90px;
+}
+#tim h5{
+  font-weight: 700;
+  color: black;
+  text-align: center;
+  font-size: 14px;
+  margin-top: 15px;
+}
+#tim p{
+  margin-top: -10px;
+  font-size: 9px;
+}
+#tim figure img{
+  margin: 20px 10px 0;
+  width: 120px;
+  height: 120px;
+  text-align: center;
+} 
+.figure2{
+  margin-left: 30px;
+}
+/* Akhir Team */
+
+/* contact */
+.kontak{
+  font-family: Viga ;
+  margin-top: -50px;
+  background-color: #f7f7f7;
+  box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+  border-radius: 12px;
+}
+
+.kontak i {
+  margin-top: 20px;
+  color: #2dc997;
+}
+/* Akhir Contact */
+
+/* Footer */
+.footer{
+  font-family: Viga;
+  margin-top: -70px;
+  height: 200px;
+  background-size: cover;
+  background-color: #bac1ca;
+}
+.footer p{
+  font-weight: 700;
+  margin-top: 160px;
+}
+/* Akhir Footer */
+
+/* Desktop Version */
+@media (min-width: 992px) { 
+  /* Navbar and Brand */
+  .navbar-brand{
+    font-size: 40px;
+  }
+  .nav-link{
+    margin-right:30px;
+    font-size: 20px;
+  }
+  
+  .nav-link:hover::after{
+    content: '';
+    color: #e673b0 !important;
+    display: block;
+    border-bottom: 3px solid #e673b0;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 2px;
+    margin-bottom: -5px;
+  }
+  /* Akhir Navbar and Brand */
+
+  /* Awal Jumbotron */
+  .jumbotron{
+    background-size: cover;
+    margin-top: -300px;
+    height: 880px;
+  }
+  .jumbotron h1{
+    margin-top: 260px;
+    font-size: 70px;
+  }
+  .jumbotron h2{
+    font-size: 20px;
+    margin-top: 50px;  
+  }
+  .jumbotron h3{
+    font-size: 18px;
+    margin-top: 60px;
+  }
+  /* Akhir Jumbotron */
+  
+  /* Profile */
+  #profile{
+    height: 800px;
+  }
+  #profile .col{
+    margin-top: 100px;
+  }
+  #profile .col h2{
+    font-size: 50px;
+  }
+  #profile .col p{
+    font-size: 16px;
+  }
+  .img-fluid{
+    border-radius: 20px;
+    height: 620px;
+  }
+  /* Akhir Profile */
+  
+  /* Keynote Speaker */
+  .teks{
+    font-weight: 700;
+    margin-top: 100px;
+    margin-bottom: 90px;
+    text-align: center;
+    font-size: 50px;
+  }
+  /* Akhir Keynote Speaker */
+  
+  /* Team */
+  #tim {
+    height: 1070px;
+    
+  }
+  #tim figure img{
+    width: 200px;
+    height: 200px;
+    margin: 50px 40px 10px;
+  }
+  .figure2{
+    margin-left: 0;
+  }
+  #tim h5{
+    font-size: 30px;
+  }
+  #tim p{
+    font-size: 18px;
+  }
+  /* Akhir Team */
+}
